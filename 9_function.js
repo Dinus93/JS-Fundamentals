@@ -298,11 +298,11 @@ const quadrato = (x) => {
 
 // se è presente un solo parametro in ingresso le parentesi tonde non servono, sono opzionali
 
-const quadra = (x) => {
+const quadra = x => {
   return x * x;
 };
 
 //nel caso in cui la funzione abbia una single expressions come valore di ritorno
 //è possibile togliere la parola return e anche le parentesi {}
 
-const quad = (x) => x * x;
+const quad = x => x * x;
